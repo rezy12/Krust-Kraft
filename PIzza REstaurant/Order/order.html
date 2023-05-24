@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Order Krust & Kraft</title>
+  <link rel="stylesheet" href="Krust.css">
+  <script src="Krust.js"></script>
+
+
+
+<!--google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="restaurant-name">Krust & Kraft</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <h2 class="hero-title">Order</h2>
+      <p class="hero-description">What Would You Like To Eat</p>
+      <a href="#" class="cta-button">View Menu</a>
+    </section>
+
+    <!--form input to enter and store-->
+    <section class="feature-section">
+      <div class="feature-box">
+        <!--name/last/address-->
+        <label class="feature-title" for="fname">First Name:</h3>
+          <input type="text" id="fname" required minlength="2" maxlength="15" size="10"> <br>
+        <label class="feature-title" for="lname">Last Name:</h3>
+          <input type="text" id="lname" required minlength="2" maxlength="15" size="10"> <br>
+        <label class="feature-title" for="Address">Address:</h3>
+          <input type="text" id="name" required maxlength="25" size="10"> 
+        
+      </div>
+
+        <!--title for center form input page-->
+        <h1 class="feature-description">Relax and enjoy our cozy and welcoming atmosphere, perfect for any occasion.</h1>
+      
+
+      <!--right box input-->
+      <div class="feature-box">
+      
+      <!--phone/email-->
+       <!--name/last/address-->
+       <label class="feature-title" for="Phone">Phone:</h3>
+        <input type="tel" id="Phone" required minlength="2" maxlength="15" size="10"> <br>
+      <label class="feature-title" for="lname">Email:</h3>
+        <input type="text" id="lname" required minlength="2" maxlength="15" size="10"> <br>
+      <label class="feature-title" for="Address">Delvery Or Carry-out:</h3>
+        <input type="radio" id="Carry-out" name="carry-home" value="yes">
+        <label for="Carry-out">Carry-Out</label><br>
+        <input type="radio" id="delivery" name="carry-home" value="no">
+        <label for="delivery">Delivery</label><br>
+      
+      </div>
+    </section>
+
+
+    <!-- coupon -->
+    <section class="discount-section">
+
+      <!--size of pizza modify-->
+      <div class="discount-content">
+        <h3 class="discount-title">Size-Of-Pizza</h3>
+        
+        <label class="discount-option">
+          <input type="radio" name="pizza-size" value="small">
+          <span class="discount-label" style="font-size: 26px;">Small</span>
+        </label>
+        <br>
+        
+        <label class="discount-option">
+          <input type="radio" name="pizza-size" value="medium">
+          <span class="discount-label" style="font-size: 30px;">Medium</span>
+        </label>
+        <br>
+
+        <label class="discount-option">
+          <input type="radio" name="pizza-size" value="large">
+          <span class="discount-label" style="font-size: 44px;">Large</span>
+        </label>
+        <br>
+
+        <label class="discount-option">
+          <input type="radio" name="pizza-size" value="xl">
+          <span class="discount-label" style="font-size: 49px;">XL/Family-Size</span>
+        </label>
+        <br>
+      </div>
+      
+
+        <!--Crust type to choose from-->
+        <div class="discount-content">
+          <h3 class="discount-title">Crust</h3>
+            <input type="radio" id="thin-crust" name="crust" value="thin">
+            <label for="thin-crust">Thin Crust</label><br>
+            <input type="radio" id="thick-crust" name="crust" value="thick">
+            <label for="thick-crust">Thick Crust</label><br>
+            <input type="radio" id="stuffed-crust" name="crust" value="stuffed">
+            <label for="stuffed-crust">Stuffed Crust</label><br>
+            <input type="radio" id="gluten-free" name="crust" value="gluten-free">
+            <label for="gluten-free">Gluten-Free Crust</label><br>
+        </div>
+
+        <!--Sauce choice choose from-->
+        <div class="discount-content">
+          <h3 class="discount-title">Sauce</h3>
+            <input type="radio" id="alfredo-sauce" name="sauce" value="alfredo">
+            <label for="alfredo-sauce">Alfredo Sauce</label><br>
+            <input type="radio" id="tomato-sauce" name="sauce" value="tomato">
+            <label for="tomato-sauce">Tomato Sauce</label><br>
+            <input type="radio" id="bbq-sauce" name="sauce" value="bbq">
+            <label for="bbq-sauce">BBQ Sauce</label><br>
+            <input type="radio" id="marinara-sauce" name="sauce" value="marinara">
+            <label for="marinara-sauce">Marinara Sauce</label><br>
+            <input type="radio" id="garlic-parmesan-sauce" name="sauce" value="garlic">
+            <label for="garlic-parmesan-sauce">Garlic Parmesan Sauce</label><br>
+        </div>
+
+
+        <!-- Topping varieties -->
+        <div class="discount-content">
+          <h3 class="discount-title">Toppings</h3>
+          <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+          <label for="pepperoni">Pepperoni</label><br>
+          <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+          <label for="mushrooms">Mushrooms</label><br>
+          <input type="checkbox" id="onions" name="topping" value="onions">
+          <label for="onions">Onions</label><br>
+          <input type="checkbox" id="sausage" name="topping" value="sausage">
+          <label for="sausage">Sausage</label><br>
+          <input type="checkbox" id="bacon" name="topping" value="bacon">
+          <label for="bacon">Bacon</label><br>
+          <input type="checkbox" id="black-olives" name="topping" value="black-olives">
+          <label for="black-olives">Black Olives</label><br>
+          <input type="checkbox" id="green-peppers" name="topping" value="green-peppers">
+          <label for="green-peppers">Green Peppers</label><br>
+          <input type="checkbox" id="pineapple" name="topping" value="pineapple">
+          <label for="pineapple">Pineapple</label><br>
+          <input type="checkbox" id="jalapenos" name="topping" value="jalapenos">
+          <label for="jalapenos">Jalapenos</label><br>
+          <input type="checkbox" id="olives" name="topping" value="olives">
+          <label for="olives">Olives</label><br>
+          <input type="checkbox" id="spinach" name="topping" value="spinach">
+          <label for="spinach">Spinach</label><br>
+          <input type="checkbox" id="anchovies" name="topping" value="anchovies">
+          <label for="anchovies">Anchovies</label><br>
+        </div>
+
+
+        <h3 class="discount-title">Dipping Sauce</h3>
+        <!--dipping sauce-->
+        <section class="feature-section">
+
+          <div class="feature-box">
+            <input type="checkbox" id="Garlic_Dipping_Sauce" name="dipping" value="Garlic Dipping Sauce">
+              <label for="Garlic_Dipping_Sauce">Garlic Dipping Sauce</label><br>
+            
+          </div>
+          <div class="feature-box">
+            <input type="checkbox" id="Rance_Dipping_Sauce" name="dipping" value="Ranch Dipping Sauce">
+              <label for="Rance_Dipping_Sauce">Ranch Dipping Sauce</label><br>
+          </div>
+          <div class="feature-box">
+            <input type="checkbox" id="Marinara_Dipping_Sauce" name="dipping" value="Marinara Dipping Sauce">
+          <label for="Marinara_Dipping_Sauce">Marinara Dipping Sauce</label><br>
+          </div>
+        </section>
+
+        
+        <!-- drink varieties -->
+        <div class="discount-content">
+          <h3 class="discount-title">Drink</h3>
+          <input type="radio" id="cola" name="soda" value="cola">
+          <label for="cola">Cola</label><br>
+          <input type="radio" id="lemon-lime" name="soda" value="lemon-lime">
+          <label for="lemon-lime">Lemon-Lime</label><br>
+          <input type="radio" id="orange" name="soda" value="orange">
+          <label for="orange">Orange</label><br>
+          <input type="radio" id="grape" name="soda" value="grape">
+          <label for="grape">Grape</label><br>
+          <input type="radio" id="root-beer" name="soda" value="root-beer">
+          <label for="root-beer">Root Beer</label><br>
+          <input type="radio" id="cream-soda" name="soda" value="cream-soda">
+          <label for="cream-soda">Cream Soda</label><br>
+          <input type="radio" id="ginger-ale" name="soda" value="ginger-ale">
+          <label for="ginger-ale">Ginger Ale</label><br>
+          <input type="radio" id="lemonade" name="soda" value="lemonade">
+          <label for="lemonade">Lemonade</label><br>
+          <input type="radio" id="fruit-punch" name="soda" value="fruit-punch">
+          <label for="fruit-punch">Fruit Punch</label><br>
+          <input type="radio" id="cherry" name="soda" value="cherry">
+          <label for="cherry">Cherry</label><br>
+        </div>
+
+        <div class="discount-content">
+          <button type="button" id="OrderReadyButton" name="button">Order Ready</button>
+
+        </div>
+
+    </section>
+
+
+    <section>
+        <div id="print_List">
+          <h1 id="print_List">Right Now List Is Empty</h1>
+          <ul id="orderList"></ul>
+        </div>
+    </section>
+    
+      
+      
+      
+      
+
+
+
+
+      <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Pizza Place. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+      </footer>
+      
+
+
+
+
+  </div>
+</body>
+</html>

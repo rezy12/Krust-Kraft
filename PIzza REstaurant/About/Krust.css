@@ -1,0 +1,273 @@
+/*footer layout*/
+footer {
+  background-color: #FDF6E3;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color: #888888;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.footer-links li a:hover {
+  color: #FF0000;
+}
+
+
+
+
+/*wings and salad bar*/
+.food-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 30px;
+  }
+  
+  .food-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .wings {
+    border-right: 5px solid #FF0000;
+  }
+  
+  .salad-bar {
+    border-left: 5px solid #FF0000;
+  }
+  
+  .food-title {
+    font-size: 24px;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  
+  .food-description {
+    font-size: 18px;
+    color: #FF0000;
+    margin-bottom: 10px;
+  }
+  
+  .food-button {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .food-button:hover {
+    background-color: #CC0000;
+  }
+  
+  body{
+    background-image: url('image/border-image.jpg');
+    background-size: cover;
+    background-position: center;
+  /*google font*/
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  
+  
+  
+  
+  
+  /*discount coupon layout*/
+  .discount-section {
+    background-color: #FDF6E3;
+    padding: 50px;
+    margin-top: 30px;
+    border: 5px solid #FF0000;
+    border-radius: 10px;
+  }
+  
+  .discount-content {
+    text-align: center;
+  }
+
+  .discount-content h2{
+    color: #FF0000;
+    font-size: 32px;
+  }
+
+  .discount-content h4{
+    font-size: 30px;
+  }
+
+  
+  
+  .discount-title {
+    font-size: 24px;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  
+  .discount-description {
+    font-size: 18px;
+    color: #FF0000;
+    margin-bottom: 10px;
+  }
+  
+  .discount-code {
+    font-size: 16px;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+  
+  .discount-button {
+    display: inline-block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .discount-button:hover {
+    background-color: #CC0000;
+  }
+  
+  
+  
+  
+  
+  /*page layout*/
+  
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #FDF6E3;
+      padding: 20px;
+      border: 5px solid #FF0000;
+      border-radius: 10px;
+    }
+    
+    .restaurant-name {
+      font-size: 48px;
+      color: #006400;
+      text-shadow: 2px 2px #FFFF00;
+      margin-bottom: 20px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #FF0000;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    nav ul li a:hover{
+      background-color: #ecec3b;
+      border-radius: 25%;
+      padding: 0;
+      color: #006400;
+    } 
+    
+    .hero-section {
+      background-color: #FFFF00;
+      padding: 50px;
+      margin-top: 30px;
+      border: 2px dotted #006400;
+    }
+    
+    .hero-title {
+      font-size: 48px;
+      color: #006400;
+      margin-bottom: 20px;
+    }
+    
+    .hero-description {
+      font-size: 24px;
+      color: #FF0000;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: #FF0000;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      font-size: 20px;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background-color: #CC0000;
+    }
+    
+    .feature-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+    
+    .feature-box {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border: 3px solid #FF0000;
+      border-radius: 10px;
+      width: 30%;
+    }
+    
+    .feature-title {
+      font-size: 24px;
+      color: #006400;
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+    
+    .feature-description {
+      font-size: 18px;
+      color: #FF0000;
+    }
+    
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #888888;
+    }
+    
+    
